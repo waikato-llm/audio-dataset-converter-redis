@@ -1,5 +1,5 @@
 # audio-dataset-converter-redis
-Redis integration for the [audio-dataset-converter](https://github.com/waikato-datamining/audio-dataset-converter) library.
+Redis integration for the [audio-dataset-converter](https://github.com/waikato-llm/audio-dataset-converter) library.
 
 For making predictions, Docker images for Deep learning frameworks with Redis support are available from here:
 
@@ -16,7 +16,7 @@ pip install audio-dataset-converter-redis
 The latest code straight from the repository:
 
 ```bash
-pip install git+https://github.com/waikato-datamining/audio-dataset-converter-redis.git
+pip install git+https://github.com/waikato-llm/audio-dataset-converter-redis.git
 ```
 
 

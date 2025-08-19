@@ -4,7 +4,7 @@ from time import sleep
 
 from wai.logging import LOGGING_WARNING
 
-from adc.api import flatten_list, make_list
+from kasperl.api import flatten_list, make_list
 from ._redis_filter import AbstractRedisFilter
 
 TIMEOUT_ACTION_DROP = "drop"

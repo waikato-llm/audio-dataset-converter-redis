@@ -4,8 +4,8 @@ from typing import List
 
 from wai.logging import LOGGING_WARNING
 
+from kasperl.redis.reader import AbstractRedisListener
 from adc.api import DATATYPES, data_type_to_class, AudioData, determine_audio_format_from_bytes, FORMAT_WAV, FORMAT_EXTENSIONS
-from ._redis_listener import AbstractRedisListener
 
 
 class RedisAudioReader(AbstractRedisListener):

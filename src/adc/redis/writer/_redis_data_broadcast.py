@@ -4,8 +4,8 @@ from typing import List
 
 from wai.logging import LOGGING_WARNING
 
+from kasperl.redis.writer import AbstractRedisBroadcaster
 from adc.api import AudioData
-from ._redis_broadcaster import AbstractRedisBroadcaster
 
 
 class RedisDataBroadcast(AbstractRedisBroadcaster):

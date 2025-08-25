@@ -2,8 +2,8 @@ from typing import List
 
 from wai.logging import LOGGING_WARNING
 
+from kasperl.redis.filter import AbstractRedisPubSubFilter
 from adc.api import SpeechData
-from ._redis_pubsub_filter import AbstractRedisPubSubFilter
 
 
 class AudioRedisTranscribe(AbstractRedisPubSubFilter):

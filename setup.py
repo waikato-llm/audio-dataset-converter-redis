@@ -32,7 +32,7 @@ setup(
     packages=find_namespace_packages(where='src'),
     install_requires=[
         "audio_dataset_converter",
-        "redis",
+        "kasperl_redis",
     ],
     version="0.0.2",
     author='Peter Reutemann',
